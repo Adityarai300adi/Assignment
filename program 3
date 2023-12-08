@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	int num1,num2,div;
+	printf("Enter two numbers \n");
+	printf("---------------------\n");
+	printf("Enter first number: ");
+	scanf("%d",&num1);
+	printf("\n Enter sencod number: ");
+	scanf("%d",&num2);
+	div=num1/num2;
+	printf("\n Division of %d & %d = %d",num1,num2,div);
+	return 0;
+}
