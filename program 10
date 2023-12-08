@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	float l,b;
+	printf("Enter the length: ");
+	scanf("%f",&l);
+	printf("Enter the breath: ");
+	scanf("%f",&b);
+	float area=l*b;
+	printf("The area of rectangle is %0.2f",area);
+	printf(" unit square");
+	return 0;
+}
