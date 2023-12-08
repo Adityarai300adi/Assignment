@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    float side,area;
+    printf("Enter the length of the side: ");
+    scanf("%f", &side);
+    area = side*side;
+    printf("The area of the triangle is: %.2lf", area);
+    printf(" unit square");
+    return 0;
+}
