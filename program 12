@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	int side,tsa,volume;
+	printf("Enter the side of cube: ");
+	scanf("%d",&side);
+	tsa=6*side*side;
+	printf("The total surface area of cube is %d",tsa);
+	printf(" unit area");
+	volume=side*side*side;
+	printf("\nThe volume of cube is %d",volume); 
+	printf(" unit cube");
+	return 0;
+}
