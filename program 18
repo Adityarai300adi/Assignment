@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    int num1 = 5;
+    int num2 = 10;
+    printf("Post-increment:\n");
+    printf("Original value of num1: %d\n", num1);
+    num1 = num1++; // Post-increment num1
+    printf("Updated value of num1: %d\n", num1);
+    printf("\nPost-decrement:\n");
+    printf("Original value of num2: %d\n", num2);
+    num2 = num2--; // Post-decrement num2
+    printf("Updated value of num2: %d\n", num2);
+    return 0;
+}
