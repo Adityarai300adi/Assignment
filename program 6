@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() {
+double a, b, product;
+printf("Enter 1st numbers: ");
+scanf("%lf", &a);
+printf("Enter 2nd number");
+scanf("%lf",&b);
+
+product = a * b;
+
+printf("The product is = %.2lf", product);
+return 0;
+}
