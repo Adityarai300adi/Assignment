@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int num, shift;
+    printf("Enter a positive number: ");
+    scanf("%d", &num);
+    if (num <= 0) {
+        printf("Please enter a positive number.\n");
+        return 1; 
+    }
+    printf("Enter the number of positions to shift left: ");
+    scanf("%d", &shift);
+    int result = num << shift;
+    printf("Result of left shift: %d\n", result);
+    return 0;
+}
