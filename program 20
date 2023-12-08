@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main() {
+    char gender;
+    printf("Enter a single character ('M' or 'm' for Male, 'F' or 'f' for Female): ");
+    scanf(" %c", &gender);
+    if (gender == 'M' || gender == 'm') {
+        printf("Gender: Male\n");
+    } else if (gender == 'F' || gender == 'f') {
+        printf("Gender: Female\n");
+    } else {
+        printf("Invalid input. Please enter 'M' or 'm' for Male, 'F' or 'f' for Female.\n");
+    }
+    return 0;
+}
